@@ -1,0 +1,57 @@
+:root {
+  /* Neutrals */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #555555;
+  --color-divider: #e6e6e6;
+
+  /* Accent palette (primary choice) */
+  --color-accent-primary: #8d0b76;
+  --color-accent-secondary: #af549f;
+  --color-accent-soft: #f3e6f1;
+}
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--color-text);
+}
+
+h2 {
+  border-bottom: 2px solid var(--color-accent-primary);
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+/* Links */
+a {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent-secondary);
+  text-decoration: underline;
+}
+
+/* Cards / Boxes */
+.card {
+  background-color: var(--color-accent-soft);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* Icon style (for later) */
+.icon {
+  color: var(--color-accent-primary);
+}
+
