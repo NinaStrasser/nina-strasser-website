@@ -1,125 +1,319 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
+
   <link rel="stylesheet" href="style.css">
+
   <title>Teaching – Nina Strasser</title>
+
+  <style>
+
+    /* Slightly tighter spacing within the course list */
+    .courses-section h3 {
+      margin-bottom: 0.35rem;
+    }
+
+    .courses-section .research-list {
+      margin-top: 0.35rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .courses-section .research-list:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Guest lecture */
+    .guest-lecture-entry {
+      margin-top: 0.6rem;
+    }
+
+    .guest-lecture-entry p {
+      margin: 0.25rem 0;
+    }
+
+    .guest-lecture-actions {
+      margin-top: 0.8rem;
+    }
+
+  </style>
+
 </head>
 
+
 <body>
+
   <div class="page">
 
+
+    <!-- Navigation -->
+
     <nav class="icon-nav" aria-label="Primary navigation">
+
       <a class="nav-item" href="index.html">
+
         <img src="Assets/Symbol_Home.png" alt="" class="nav-icon">
+
         <span class="nav-label">Home</span>
+
       </a>
+
 
       <a class="nav-item" href="publications.html">
+
         <img src="Assets/Symbol_Publications.png" alt="" class="nav-icon">
+
         <span class="nav-label">Publications</span>
+
       </a>
+
 
       <a class="nav-item" href="awards.html">
+
         <img src="Assets/Symbol_Awards.png" alt="" class="nav-icon">
+
         <span class="nav-label">Honors</span>
+
       </a>
+
 
       <a class="nav-item" href="activities.html">
+
         <img src="Assets/Symbol_Activities.png" alt="" class="nav-icon">
+
         <span class="nav-label">Activities</span>
+
       </a>
+
 
       <a class="nav-item active" href="teaching.html">
+
         <img src="Assets/Symbol_Teaching.png" alt="" class="nav-icon">
+
         <span class="nav-label">Teaching</span>
+
       </a>
+
 
       <a class="nav-item" href="cv.html">
+
         <img src="Assets/Symbol_CV.png" alt="" class="nav-icon">
+
         <span class="nav-label">CV</span>
+
       </a>
+
     </nav>
 
-    <!-- Top block (same vibe as the Home intro section, just without an image) -->
+
+
+    <!-- Introduction -->
+
     <section class="intro">
+
       <div class="intro-text">
+
         <h1>Teaching</h1>
 
         <p class="lead">
+
           I have taught a range of courses in chemistry, physics and mathematics at different academic
-          levels, including introductory lectures for first-year students as well as advanced laboratory and
-          exercise courses.
+          levels, including introductory lectures for first-year students as well as advanced laboratory
+          and exercise courses.
+
         </p>
 
         <p class="lead">
-          I see teaching as a relational process that thrives on trust, clarity, mutual respect, and a supportive
+
+          I see teaching as a relational process that thrives on trust, clarity, mutual respect and a supportive
           learning environment. I believe that learning is a continuous process and that all students are capable
           of developing new competencies when supported and encouraged.
+
         </p>
+
       </div>
+
     </section>
+
+
 
     <hr class="section-divider">
 
-    <!-- Two-column block like on the Home page -->
+
+
+    <!-- Teaching Areas & Supervision -->
+
     <section class="info-section">
-      <div class="info-column">
-        <h2>Teaching Areas</h2>
-        <ul class="research-list">
-          <li>Physical and theoretical chemistry</li>
-          <li>Infrared Spectroscopy</li>
-          <li>Mathematical foundations</li>
-          <li>Computational methods in chemistry</li>
-        </ul>
-      </div>
-<div class="info-column">
-  <h2>Supervision</h2>
 
-  <div class="counter">
-    <span class="counter-number">1</span>
-    <span class="counter-label">Bachelor’s thesis co-supervised</span>
-  </div>
-</div>
-    
+      <div class="info-column">
+
+        <h2>Teaching Areas</h2>
+
+        <ul class="research-list">
+
+          <li>Physical and theoretical chemistry</li>
+
+          <li>Molecular spectroscopy</li>
+
+          <li>Mathematical foundations</li>
+
+          <li>Computational methods in chemistry</li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="info-column">
+
+        <h2>Supervision</h2>
+
+        <div class="counter">
+
+          <span class="counter-number">1</span>
+
+          <span class="counter-label">Bachelor’s thesis co-supervised</span>
+
+        </div>
+
+      </div>
+
     </section>
+
+
 
     <hr class="section-divider">
 
-    <section class="sheet">
+
+
+    <!-- Courses -->
+
+    <section class="sheet courses-section">
+
       <h2>Courses Taught</h2>
 
+
       <h3>Ruhr-University Bochum, Germany</h3>
+
       <ul class="research-list">
-        <li>Physical Foundations of Chemistry (Winter term 2025/26, Bachelor, 1<sup>st</sup> semester)</li>
+
+        <li>
+          Basic Laboratory Course in Physical Chemistry
+          (winter term 2026/27, Bachelor, 1<sup>st</sup> semester)
+        </li>
+
+        <li>
+          Advanced Laboratory Course in Physical Chemistry
+          (summer term 2026, Bachelor, 6<sup>th</sup> semester)
+        </li>
+
+        <li>
+          Physical Foundations of Chemistry
+          (winter term 2025/26, Bachelor, 1<sup>st</sup> semester)
+        </li>
+
       </ul>
+
+
 
       <h3>Graz University of Technology, Austria</h3>
+
       <ul class="research-list">
-        <li>Physics for Electrical Engineering (Winter terms 2023/24, 2024/25, Bachelor, 1<sup>st</sup> semester)</li>
+
+        <li>
+          Physics for Electrical Engineering
+          (winter terms 2023/24, 2024/25, Bachelor, 1<sup>st</sup> semester)
+        </li>
+
       </ul>
+
+
 
       <h3>University of Graz, Austria</h3>
+
       <ul class="research-list">
-        <li>Physical Chemistry Laboratory Course (Winter term 2021/22, online, Bachelor, 3<sup>rd</sup> semester)</li>
-        <li>Molecular Analytics and Spectroscopy Laboratory Course (Winter term 2021/22, hybrid, Bachelor, 5<sup>th</sup> semester)</li>
-        <li>Mathematics for Chemists II (Summer term 2020/21, online, Bachelor, 2<sup>nd</sup> semester)</li>
-        <li>Calculus of Physical Chemistry II (Winter term 2020/21, online, Bachelor, 3<sup>rd</sup> semester)</li>
+
+        <li>
+          Physical Chemistry Laboratory Course
+          (winter term 2021/22, online, Bachelor, 3<sup>rd</sup> semester)
+        </li>
+
+        <li>
+          Molecular Analytics and Spectroscopy Laboratory Course
+          (winter term 2021/22, hybrid, Bachelor, 5<sup>th</sup> semester)
+        </li>
+
+        <li>
+          Mathematics for Chemists II
+          (summer term 2021, online, Bachelor, 2<sup>nd</sup> semester)
+        </li>
+
+        <li>
+          Calculus of Physical Chemistry II
+          (winter term 2020/21, online, Bachelor, 3<sup>rd</sup> semester)
+        </li>
+
       </ul>
+
     </section>
 
-<hr class="section-divider">
 
-<section class="sheet">
-      <h2>Teaching Material</h2> <p>
-       Teaching materials such as lecture notes and supplementary resources will be added here in the future.
+
+    <hr class="section-divider">
+
+
+
+    <!-- Guest Lecture -->
+
+    <section class="sheet">
+
+      <h2>Guest Lectures & Teaching Materials</h2>
+
+      <div class="guest-lecture-entry">
+
+        <p>
+          <strong>Fundamentals and Principles of Terahertz (THz) Spectroscopy</strong>
+        </p>
+
+        <p>
+          Lecture 9 in <em>Concepts of Spectroscopy II</em>, Master, 2<sup>nd</sup> semester,
+          Ruhr-University Bochum (2026)
+        </p>
+
+        <div class="guest-lecture-actions">
+
+          <a class="btn"
+             href="Assets/Lecture_9_Concepts_of_Spectroscopy_II_Fundamentals_and_Practical_Applications_of_THz-Spectroscopy.pdf"
+             target="_blank"
+             rel="noopener">
+
+            Open PDF
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
   </div>
 
+
+
   <footer class="site-footer">
+
     <a href="imprint.html">Imprint</a> ·
+
     <a href="privacy.html">Privacy Policy</a>
+
   </footer>
 
-</body>
-</html>
 
+</body>
+
+</html>
